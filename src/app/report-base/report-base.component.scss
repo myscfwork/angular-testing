@@ -1,0 +1,44 @@
+:host {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.legend-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+::ng-deep .mat-tab-body-active {
+  z-index: unset !important;
+}
+
+::ng-deep mat-tab-body {
+  z-index: unset !important;
+}
+
+.tab-group-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.tab-group-container-all {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.tab-group-item {
+  flex: 1;
+}
+
+.select-filter-class {
+  height: 40px;
+  width: 105px;
+  margin-left: 10%;
+}
